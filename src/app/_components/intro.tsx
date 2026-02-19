@@ -7,15 +7,8 @@ export function Intro() {
         Edmonton-Life-Blog
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A collection of our family adventures in Edmonton, Canada.{" "}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-blue-600 duration-200 transition-colors"
-        >
-          Next.js
-        </a>{" "}
-        and {CMS_NAME}.
-      </h4>
+  A collection of our family adventures in Edmonton, Canada.
+</h4>
     </section>
   );
 }
