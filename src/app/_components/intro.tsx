@@ -13,9 +13,9 @@ export function Intro() {
       </div>
       
       <div className="flex-col md:flex-row flex items-center md:justify-between w-full">
-        <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-          Edmonton-Life-Blog
-        </h1>
+        <h1 className="text-5xl md:text-8xl font-serif font-bold tracking-tighter leading-tight md:pr-8">
+  Edmonton-Life-Blog
+</h1>
         <h4 className="text-center md:text-left text-lg mt-5">
           A collection of our family adventures in Edmonton, Canada.
         </h4>
