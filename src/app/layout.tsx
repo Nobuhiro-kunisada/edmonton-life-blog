@@ -5,9 +5,8 @@ import { Inter } from "next/font/google";
 import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
-
-import { Playfair_Display, Inter } from "next/font/google";
 
 const serif = Playfair_Display({ 
   subsets: ["latin"],
@@ -68,8 +67,8 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
-      >
+  className={cn(serif.variable, sans.variable, "font-sans dark:bg-slate-900 dark:text-slate-400")}
+>
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />
