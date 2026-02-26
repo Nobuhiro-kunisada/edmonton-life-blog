@@ -19,6 +19,11 @@ export function Intro() {
         <h4 className="text-center md:text-left text-lg mt-5">
           A collection of our family adventures in Edmonton, Canada.
         </h4>
+        <div className="flex justify-center md:justify-start mt-6">
+  <button className="bg-[#41B883] text-white font-bold py-3 px-8 rounded-full shadow-md hover:bg-[#34966b] transition duration-300">
+    Read Our Story
+  </button>
+</div>
       </div>
     </section>
   );
