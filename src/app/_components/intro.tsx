@@ -4,11 +4,11 @@ export function Intro() {
   return (
     <section className="flex-col flex items-center mt-16 mb-16">
       {/* ↓ ここに画像を追加 */}
-      <div className="w-full mb-8">
+      <div className="w-full max-w-4xl mx-auto mb-8">
         <img 
           src="/assets/blog/top_image.png"
           alt="Edmonton Life" 
-          className="w-full h-auto rounded-xl shadow-lg"
+          className="w-full h-[300px] md:h-[450px] object-cover rounded-xl shadow-lg"
         />
       </div>
       
