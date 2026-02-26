@@ -7,7 +7,17 @@ import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Playfair_Display, Inter } from "next/font/google";
+
+const serif = Playfair_Display({ 
+  subsets: ["latin"],
+  variable: '--font-serif', // CSSで使うための名前
+});
+
+const sans = Inter({ 
+  subsets: ["latin"],
+  variable: '--font-sans', 
+});
 
 export const metadata: Metadata = {
   title: `Next.js Blog Example with ${CMS_NAME}`,
