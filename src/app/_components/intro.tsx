@@ -6,7 +6,7 @@ export function Intro() {
       {/* ↓ ここに画像を追加 */}
       <div className="w-full mb-8">
         <img 
-          src="/assets/top_image.png"
+          src="/assets/blog/top_image.png"
           alt="Edmonton Life" 
           className="w-full h-auto rounded-xl shadow-lg"
         />
