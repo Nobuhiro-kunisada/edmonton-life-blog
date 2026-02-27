@@ -4,7 +4,7 @@ excerpt: "After a long journey, we are officially permanent residents. Here is o
 coverImage: "/assets/blog/top_image.png"
 date: "2026-02-26T10:00:00.000Z"
 author:
-  name: "Your Name"
+  name: "Miki"
   picture: "/assets/blog/authors/joe.jpeg"
 ogImage:
   url: "/assets/blog/top_image.png"
