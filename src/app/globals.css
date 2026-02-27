@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ↓ ここから追加 */
+body {
+  @apply bg-[#FDFCF8] text-[#333333] min-h-screen;
+}
+
+/* リンクの色もStitchグリーンに統一 */
+a {
+  @apply text-[#4A7856] transition-colors duration-200;
+}
+
+/* 記事の中の太字なども少し柔らかい色に */
+strong, h2, h3 {
+  @apply text-[#2C4A34];
+}
