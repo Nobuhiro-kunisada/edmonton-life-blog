@@ -22,19 +22,22 @@ export function PostPreview({
   slug,
 }: Props) {
   return (
-    <div>
-      <div className="mb-5">
+   <div>
+      <div className="mb-5 overflow-hidden rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+        {/* 画像を少し角丸にして、ホバーで影が強くなるようにしました */}
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link href={`/posts/${slug}`} className="hover:underline">
+      <h3 className="text-2xl mb-3 leading-tight font-serif font-bold text-[#2C4A34]">
+        {/* フォントをセリフ体に、色を濃い緑に変更 */}
+        <Link href={`/posts/${slug}`} className="hover:text-[#4A7856] transition-colors">
           {title}
         </Link>
       </h3>
-      <div className="text-lg mb-4">
+      <div className="text-sm mb-4 text-gray-600 font-sans">
+        {/* 日付は少し小さくして、控えめに */}
         <DateFormatter dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      <p className="text-base leading-relaxed mb-4 text-gray-700">{excerpt}</p>
       <Avatar name={author.name} picture={author.picture} />
     </div>
   );
