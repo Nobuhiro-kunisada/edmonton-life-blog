@@ -5,7 +5,7 @@ coverImage: "/assets/blog/top_image.png"
 date: "2026-02-26T10:00:00.000Z"
 author:
   name: "Miki"
-  picture: "/assets/blog/authors/joe.jpeg"
+  picture: "/assets/blog/authors/me.png"
 ogImage:
   url: "/assets/blog/top_image.png"
 ---
