@@ -1,7 +1,7 @@
 ---
 title: "Finally! We Received Our Permanent Residency in Canada"
 excerpt: "After a long journey, we are officially permanent residents. Here is our story from Edmonton."
-coverImage: "/assets/blog/top_image.png"
+coverImage: ""
 date: "2026-02-26T10:00:00.000Z"
 author:
   name: "Miki"
