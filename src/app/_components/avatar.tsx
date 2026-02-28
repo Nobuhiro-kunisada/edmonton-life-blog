@@ -6,7 +6,12 @@ type Props = {
 const Avatar = ({ name, picture }: Props) => {
   return (
     <div className="flex items-center">
-      <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />
+      {/* className に "object-cover" を追加しました */}
+      <img 
+        src={picture} 
+        className="w-12 h-12 rounded-full mr-4 object-cover" 
+        alt={name} 
+      />
       <div className="text-xl font-bold">{name}</div>
     </div>
   );
